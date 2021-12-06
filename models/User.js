@@ -8,7 +8,6 @@ class User extends Model {}
 User.init(
   {
     // TABLE COLUMN DEFINITIONS GO HERE
-
     id: {
         // use the special Sequelize DataTypes object provide what type of data it is
         type: DataTypes.INTEGER,
